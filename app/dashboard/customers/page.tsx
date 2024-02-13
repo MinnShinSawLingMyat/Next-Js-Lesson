@@ -1,3 +1,10 @@
+import Test from "@/app/ui/test";
+import Memo from "@/app/ui/memo";
+
 export default function Page() {
-    return <p>Customers Page</p>;
+    return (
+        <main>
+            <Memo />
+        </main>
+    );
 }
